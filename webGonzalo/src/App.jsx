@@ -1,15 +1,12 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import './Cabecera/Cabecera.jsx'
+import Cabecera from './Cabecera/Cabecera.jsx'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <h1>Base trabajo</h1>
-      <h2>marcapersonal</h2>
+      <Cabecera />
     </>
   )
 }
