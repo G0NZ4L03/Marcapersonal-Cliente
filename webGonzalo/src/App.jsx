@@ -1,6 +1,6 @@
 import { useState } from 'react'
-import './Cabecera/Cabecera.jsx'
-import Cabecera from './Cabecera/Cabecera.jsx'
+import './Componentes/Cabecera/Cabecera.jsx'
+import Cabecera from './Componentes/Cabecera/Cabecera.jsx'
 
 function App() {
 
