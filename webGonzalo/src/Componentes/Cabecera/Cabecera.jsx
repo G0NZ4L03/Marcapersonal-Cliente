@@ -5,7 +5,8 @@ import banderaIngles from "../../assets/united-kingdom-uk-svgrepo-com.svg"
 
 const Cabecera = () => {
   return (
-    <header className="bg-dark text-white text-center fixed-top py-2 d-flex align-items-center">
+    <nav>
+       {/* redirigir al home */}
       <a href="#">
         <img src={logo} alt="Logo" className="logo-img" />
       </a>
@@ -20,7 +21,7 @@ const Cabecera = () => {
         </a>
       </div>
 
-    </header>
+    </nav>
   );
 };
 export default Cabecera;
