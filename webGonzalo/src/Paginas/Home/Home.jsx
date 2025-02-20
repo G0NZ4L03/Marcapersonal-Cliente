@@ -6,28 +6,30 @@ import alumnos from "../../assets/alumnos.jpg";
 
 const Home = () => {
     return (
+        <div className="container">
         <div className='row'>
 
             <div col-4>
                 <a href="#">
-                    <img src={empresa} alt="empresa" className="imagenes" />
+                    <img  className="imagen img-fluid mx-auto d-block" src={empresa} alt="empresa"  />
                 </a>
             </div>
 
             <div col-4>
                 <a href="#">
-                    <img src={cole} alt="colegio" className="imagenes" />
+                    <img className="imagen img-fluid mx-auto d-block"  src={cole} alt="colegio"  />
                 </a>
             </div>
 
             <div col-4>
                 <a href="#">
-                    <img src={alumnos} alt="alumnos" className="imagenes" />
+                    <img className="imagen img-fluid mx-auto d-block" src={alumnos} alt="alumnos"  />
                 </a>
 
             </div>
 
         </div>
+    </div>
     )
 }
 export default Home;
