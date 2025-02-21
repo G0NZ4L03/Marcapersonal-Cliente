@@ -3,7 +3,9 @@
     height: auto;
     border-radius: 10px;
 } */
-
+.empresa, .colegio, .alumnos{
+    width: 200px;
+}
 a{
     padding: 20px;
 }

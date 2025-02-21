@@ -10,9 +10,9 @@ const Home = () => {
         <div className='row'>
 
             <div col-4>
-                <a href="#">
+            <Link to="/Paginas/Empresa/Empresa.jsx"> 
                     <img  className="imagen img-fluid mx-auto d-block" src={empresa} alt="empresa"  />
-                </a>
+            </Link>
             </div>
 
             <div col-4>
