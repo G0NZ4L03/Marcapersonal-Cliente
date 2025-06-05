@@ -1,19 +1,22 @@
 import { useState } from 'react'
-import './Componentes/Cabecera/Cabecera.jsx'
 import Cabecera from './Componentes/Cabecera/Cabecera.jsx'
 import Home from './Paginas/Home/Home.jsx'
-import { Route } from 'react-router-dom'
 import Empresa from './Paginas/Empresa/Empresa.jsx'
+import Colegio from './Paginas/Colegio/Colegio.jsx'
+import Alumnos from './Paginas/Alumnos/Alumnos.jsx'
+import { Routes, Route } from 'react-router-dom'
 
 function App() {
 
   return (
     <>
       <Cabecera />
-      <Home />
-      <Route path="/Empresa/Empresa.jsx"
-        element={<Empresa></Empresa>}>
-      </Route>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/empresa" element={<Empresa />} />
+        <Route path="/colegio" element={<Colegio />} />
+        <Route path="/alumnos" element={<Alumnos />} />
+      </Routes>
     </>
   )
 }

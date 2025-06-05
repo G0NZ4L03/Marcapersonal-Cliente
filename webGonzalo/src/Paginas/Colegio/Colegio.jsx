@@ -1,14 +1,13 @@
-import React from 'react';
-import './Empresa.css';
+import React from "react";
+import './Colegio.css';
 
-
-const Empresa = () => {
+const Colegio = () => {
     return (
         <div className="container">
             <div className='row'>
 
                 <div className="col-4">
-                    <h1>Empresa</h1>
+                    <h1>Colegio</h1>
                 </div>
 
                 <div className="col-4">
@@ -21,4 +20,5 @@ const Empresa = () => {
         </div>
     )
 }
-export default Empresa;
+
+export default Colegio;
