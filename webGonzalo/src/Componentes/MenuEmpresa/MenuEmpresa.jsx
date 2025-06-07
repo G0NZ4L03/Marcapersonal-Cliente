@@ -1,20 +1,20 @@
 import React from 'react';
+import './MenuEmpresa.css';
+import { Link } from 'react-router-dom';
 
 const MenuEmpresa = () => {
     return (
-        <nav>
+        <nav className="menu-empresa">
             <ul>
                 <li>
                     {/* Esto hay que traducirlo */}
-                    <Link to="/Paginas/Empresa/Empresa.jsx"> 
-                    Empresa
-                    </Link> 
+                    <Link to="/empresa"> [ Empresa ]</Link>
                 </li>
                 <li>
-                    <a href="">Colegio</a>
+                    <Link to="/empresa/proyectos"> [ Proyectos ]</Link>
                 </li>
                 <li>
-                    <a href="#">Alumnos</a>
+                    <Link to="/empresa/alumnos"> [ Alumnos ]</Link>
                 </li>
             </ul>
         </nav>

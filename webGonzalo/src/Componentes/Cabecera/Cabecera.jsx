@@ -2,18 +2,20 @@ import "./Cabecera.css";
 import logo from "../../assets/mp-logoNaranja100.png";
 import banderaEspañol from "../../assets/flag-for-flag-spain-svgrepo-com.svg"
 import banderaIngles from "../../assets/united-kingdom-uk-svgrepo-com.svg"
+import { Link } from "react-router-dom";
+
 
 const Cabecera = () => {
   return (
 
-    <div className="container">
+    <nav className="container">
       <div className="row">
         <nav>
           {/* redirigir al home */}
           <div className="col-12 col-sm-6 col-md-4 logo-container">
-            <a href="#">
+            <Link to="/">
               <img src={logo} alt="Logo" className="logo-img" />
-            </a>
+            </Link>
           </div>
           <div className="col-12 col-sm-6 col-md-4 titulo">
 
@@ -32,7 +34,7 @@ const Cabecera = () => {
           </div>
         </nav>
       </div>
-    </div>
+    </nav>
   );
 };
 export default Cabecera;

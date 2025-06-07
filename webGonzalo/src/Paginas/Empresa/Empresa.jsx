@@ -1,23 +1,12 @@
 import React from 'react';
 import './Empresa.css';
-
+import Menu from '../../Componentes/MenuEmpresa/MenuEmpresa.jsx';
 
 const Empresa = () => {
     return (
-        <div className="container">
-            <div className='row'>
-
-                <div className="col-4">
-                    <h1>Empresa</h1>
-                </div>
-
-                <div className="col-4">
-                </div>
-
-                <div className="col-4">
-                </div>
-
-            </div>
+        <div>
+            <Menu></Menu>
+            <h1>Empresas</h1>
         </div>
     )
 }
