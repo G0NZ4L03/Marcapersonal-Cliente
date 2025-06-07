@@ -1,7 +1,9 @@
 import React from "react";
 import "./BusquedaProyectos.css";
 import Menu from "../../Componentes/MenuEmpresa/MenuEmpresa.jsx";
-
+import ListaFamiliasProfesionales from "../../Componentes/ListaFamiliasProfesionales/ListaFamiliasProfesionales.jsx";
+import ProyectoMinCard from "../../Componentes/ProyectoMinCard/ProyectoMinCard.jsx";
+import ResultadoBusquedaProyectos from "../../Componentes/ResultadoBusquedaProyectos/ResultadoBusquedaProyectos.jsx";
 
 const BusquedaProyectos = () => {
 
@@ -9,7 +11,9 @@ const BusquedaProyectos = () => {
     return (
         <div className="busqueda-proyectos">
             <Menu />
-            <h1>Buscar Proyectos</h1>
+            <ListaFamiliasProfesionales />
+            <ResultadoBusquedaProyectos />
+            <ProyectoMinCard />
         </div>
     );
 }

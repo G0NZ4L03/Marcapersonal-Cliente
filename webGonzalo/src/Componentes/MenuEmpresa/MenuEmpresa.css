@@ -1,9 +1,9 @@
 
 .menu-empresa {
 
-    top: 10%;    
+    top: 12.5%;    
     padding-left: 20px;
-
+    background-color: rgba(224, 224, 224, 0.808);
     gap: 10px;
 
 }
@@ -26,7 +26,7 @@ li:last-child {
 
 a {
     text-decoration: none;
-    color: orange;
+    color: rgb(95, 95, 95);
 }
 a:hover {
     font-weight: bold;
